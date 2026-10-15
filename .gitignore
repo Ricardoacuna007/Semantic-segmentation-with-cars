@@ -1,5 +1,5 @@
 #Cache de python
-_pycache__/
+__pycache__/
 *.py[cod]
 *$py.class
 
