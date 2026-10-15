@@ -1,0 +1,22 @@
+#Cache de python
+_pycache__/
+*.py[cod]
+*$py.class
+
+#Entorno virtual
+venv/
+.venv/
+env/
+ENV/
+
+#Models 
+checkpoints/
+
+#Archivos de logs
+*.log
+logs/
+temp/
+
+#editor
+.vscode/
+.idea/
