@@ -198,15 +198,6 @@ if __name__ == "__main__":
         base_channels=16
     )
 
-    # Simulamos un batch de 4 imágenes RGB de 256 x 256
-    x = torch.randn(4, 3, 256, 256)
-
-    salida = model(x)
-
-    print("Entrada:", x.shape)
-    print("Salida de UNet:", salida.shape)
-    print("Parámetros entrenables:",
-          sum(p.numel() for p in model.parameters() if p.requires_grad))
 
 
 

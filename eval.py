@@ -16,8 +16,8 @@ from model import UNet
 
 BASE_DIR = Path(__file__).resolve().parent
 SPLIT_DIR = BASE_DIR / "Dataset" / "dataset_split"
-MODEL_PATH = BASE_DIR / "checkpoints" / "best_unet.pth"
-OUTPUT_DIR = BASE_DIR / "predictions_test"
+MODEL_PATH = BASE_DIR / "checkpoints" / "best_unet_aug_100.pth"
+OUTPUT_DIR = BASE_DIR / "predictions_test" /"best_unet_aug_100"
 
 IMAGE_SIZE = 256
 BATCH_SIZE = 4
